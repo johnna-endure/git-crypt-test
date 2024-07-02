@@ -1,0 +1,4 @@
+secretfile filter=git-crypt diff=git-crypt
+*.key filter=git-crypt diff=git-crypt
+src/main/resources/*.yaml filter=git-crypt diff=git-crypt
+secretdir/** filter=git-crypt diff=git-crypt
